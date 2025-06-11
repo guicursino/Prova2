@@ -29,6 +29,11 @@ const router = createRouter({
       name: 'Revisoes',
       component: () => import('../views/RevisaoView.vue'),
     },
+    {
+      path: '/apendice',
+      name: 'Apendices',
+      component: () => import('../views/ApendiceView.vue'),
+    },
   ],
 })
 
